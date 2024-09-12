@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    body-font: 'Poppins', sans-serif;
+    heading-font: 'Yeseva One', cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+
+li {
+    display: inline;
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: #E87774;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+a {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.banner {
+    background-image: url(images/banner.png);
+    background-size: cover;
+    padding: 13%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
