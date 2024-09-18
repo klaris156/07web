@@ -1,48 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&family=Yeseva+One&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 :root {
-    --coral: #E87774;
-    --coral-transparent: rgba(232,119,116,0.75);
-    --note-background: #EAE9F6;
-    --text-color: #332838;
-    --heading-font: 'Yeseva One', cursive;
-    --body-font: 'Poppins', sans-serif;
+  --coral: #E87774;
+  --coral-transparent: rgba(232, 119, 116, 0.75);
+  --note-background: #EAE9F6;
+  --text-color: #332838;
+  --heading-font: 'Yeseva One', cursive;
+  --body-font: 'Poppins', sans-serif;
 }
 
 ul {
-    list-style-type: none;
-    padding: 1%;
-    margin-right: 4rem;
-    margin-left: 4rem;
-    
-  }
+  list-style-type: none;
+  padding: 1%;
+  margin-right: 4rem;
+  margin-left: 4rem;
+
+}
 
 li {
-    display: inline;
-    float: right;
+  display: inline;
+  float: right;
 }
 
 li a {
-    display: block;
-    color: var(--coral);
-    text-decoration: none;
-  }
+  display: block;
+  color: var(--coral);
+  text-decoration: none;
+}
 
 a {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    font-family: var(--body-font);
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: var(--body-font);
 }
 
 .banner {
-    background-image: url(images/banner.png);
-    background-size: cover;
-    padding: 10%;
+  background-image: url(images/banner.png);
+  background-size: cover;
+  padding: 10%;
 }
 
 h1 {
@@ -57,30 +59,38 @@ h1 {
 }
 
 h2 {
-    font-family: var(--heading-font);
-    color: #E87774;
-    font-size: 36px;
+  font-family: var(--heading-font);
+  color: #E87774;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: var(--heading-font);
+  font-size: 30px;
 }
 
 div.gallery {
-    margin: 5px;
-    
-    width: 180px;
-    padding: 2%;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
+  margin: 60px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .prvni, .druhy {
-    display: flex;
+div.gallery img {
+  width: 130%;
+  height: auto;
+  text-align:center ;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.prvni,
+.druhy {
+  display: flex;
   flex-direction: row;
-  }
-
+}
